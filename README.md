@@ -3,6 +3,7 @@
 * [BlueZ][1] - Implementação do stack de protocolo Bluetooth para Linux
 * [WiiUse][2] - API para conexão com o wiimote
 * [arduino-serial][3] - API para comunicação com o arduino via portas seriais
+* [Adafruit Motor Shield library][6] - Biblioteca para o shield motor do arduino
 
 ### Pareando o bluetooth com o computador
 Durante a execução deste projeto, o sensor bluetooth só pode ser conectado após a remoção do pacote **brltty**, utilizado para a funcionalidade de leitura de tela (display "braile"), [post sobre o assunto][6].
@@ -43,3 +44,4 @@ ls /dev | grep 'rfcomm'
 [4]: http://packages.ubuntu.com/trusty/synaptic
 [5]: http://public.vrac.iastate.edu/vancegroup/docs/wiiuse/d4/d92/group__publicapi.html "WiiUse External API"
 [6]: http://playground.arduino.cc/Learning/ArduinoBT-Ubuntu
+[7]: https://github.com/adafruit/Adafruit-Motor-Shield-library
